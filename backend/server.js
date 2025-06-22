@@ -15,8 +15,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://127.0.0.1:5173",
-      // TODO: After deploying frontend, replace below with your actual Vercel domain
-      "https://your-frontend-domain.vercel.app",
+      "https://taskz.vercel.app/login",
     ],
     credentials: true,
   })
