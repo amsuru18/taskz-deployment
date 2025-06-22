@@ -40,7 +40,7 @@ const Navbar = ({ user = {}, onLogout }) => {
 
           {/* Stylish Brand Name */}
           <span className="text-2xl font-extrabold bg-gradient-to-r from-fuchsia-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent tracking-wide">
-            TaskFlow
+            TaskZ
           </span>
         </div>
 
@@ -80,7 +80,7 @@ const Navbar = ({ user = {}, onLogout }) => {
                   {user.name || "Guest User"}
                 </p>
                 <p className="text-xs text-gray-500 font-normal">
-                  {user.email || "user@taskflow.com"}
+                  {user.email || "user@taskz.com"}
                 </p>
               </div>
 
